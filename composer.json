@@ -1,0 +1,50 @@
+{
+  "name": "milebits/laravel-stream",
+  "description": "A laravel package that allows you to have Video streaming ability in your laravel application.",
+  "keywords": [
+    "laravel",
+    "stream",
+    "streaming",
+    "videos",
+    "images",
+    "files",
+    "live"
+  ],
+  "type": "library",
+  "require": {
+    "laravel/framework": "6.*|7.*|8.*",
+    "php": ">=7.*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Milebits Systems",
+      "email": "support@os.milebits.com",
+      "role": "Project Manager",
+      "homepage": "https://os.milebits.com"
+    },
+    {
+      "name": "Hicham SADDEK",
+      "email": "h.saddek@serrahub.com",
+      "role": "Lead developer",
+      "homepage": "https://linkedin.com/in/hicham-saddek"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "Helpers/functions.php"
+    ],
+    "psr-4": {
+      "Milebits\\LaravelStream\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Milebits\\LaravelStream\\Providers\\StreamServiceProvider"
+      ]
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "stable"
+}

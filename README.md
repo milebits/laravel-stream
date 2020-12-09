@@ -8,7 +8,7 @@ composer require milebits/laravel-stream
 ```
 for development and contribution purposes please use
 ```
-composer reuquire milebits/laravel-stream --dev
+composer require milebits/laravel-stream --dev
 ```
 # How to use
 To use this package, you can call it using two ways, the first is by using the Milebits Laravel Stream helper file.

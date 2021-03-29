@@ -3,17 +3,22 @@ Laravel Stream
 A laravel package that allows you to easily integrate Video streaming ability in your laravel application.
 # Installation
 You can install this package using this composer command:
-```
+```bash
 composer require milebits/laravel-stream
 ```
+
 for development and contribution purposes please use
-```
+
+```bash
 composer require milebits/laravel-stream --dev
 ```
+
 # How to use
-To use this package, you can call it using two ways, the first is by using the Milebits Laravel Stream helper file.
-Todo so, add these lines to your code!
-```
+
+To use this package, you can call it using two ways, the first is by using the Milebits Laravel Stream helper file. Todo
+so, add these lines to your code!
+
+```php
 <?php
 
 namespace App\Controllers;
@@ -21,6 +26,7 @@ namespace App\Controllers;
 use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 
+use Illuminate\Routing\Controller;
 use function Milebits\LaravelStream\Helpers\videoStream;
 
 class VideoController extends Controller

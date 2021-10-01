@@ -12,8 +12,9 @@
   ],
   "type": "library",
   "require": {
-    "laravel/framework": "^6|^7|^8",
-    "php": ">=7.1"
+    "laravel/framework": "^8",
+    "php": ">=8.0",
+    "milebits/helpers": "^3"
   },
   "license": "proprietary",
   "authors": [
@@ -31,9 +32,6 @@
     }
   ],
   "autoload": {
-    "files": [
-      "Helpers/functions.php"
-    ],
     "psr-4": {
       "Milebits\\LaravelStream\\": "src/"
     }

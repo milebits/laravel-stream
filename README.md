@@ -27,7 +27,7 @@ use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 
 use Illuminate\Routing\Controller;
-use function Milebits\LaravelStream\Helpers\videoStream;
+use function videoStream;
 
 class VideoController extends Controller
 {

@@ -12,7 +12,7 @@
   ],
   "type": "library",
   "require": {
-    "laravel/framework": "^8",
+    "laravel/framework": "^8|^9",
     "php": ">=8.0",
     "milebits/helpers": "^3"
   },
